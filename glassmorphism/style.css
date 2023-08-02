@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:ital,wght@0,100;0,400;1,300&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-sarif ;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(joanna-kosinska-llLttk4TgT4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 90%;
+    max-width: 400px;
+    color: #ff6a00;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 72, 0, 0.616);
+    background: rgba(255, 164, 45, 0.556);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 140, 0, 0.625);
+    backdrop-filter: blur(5px)
+}
+
+.card img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card p{
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+.card .links img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+
+.card .links img:hover{
+    background: #ff6a00;
+}
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #fff;
+    color: #ff6a00;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
